@@ -56,4 +56,4 @@ The app will typically be accessible at http://localhost:3000/ in your browser.
 
  ## Live Link
 
-Check out the live version of the app: [Todo App](https://mytodoapp-v2.netlify.app/)
+Check out the live version of the app: [Todo App](https://todo-shahnawaz.vercel.app/)
