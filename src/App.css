@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+.App ::selection {
+  background-color: rgba(255, 228, 196, 0.559);
+}
+
+.strikethrough:checked + p {
+  text-decoration: line-through;
+  color: gray;
+}
+.todoSDiv {
+  background-color: rgba(0, 0, 0, 0.54);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(35, 33, 33, 0.753);
+  color: white;
+  background-image: url("./todoIMg.jpg");
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(3px);
+}
+
+@media (max-width: 850px) {
+  .todoBtns {
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+  }
+  .edit,
+  .remove {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
